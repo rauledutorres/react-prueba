@@ -1,0 +1,17 @@
+table{
+    margin: 0 auto;
+}
+
+td, th{
+    padding: 30px;
+    border: solid 2px;
+}
+
+thead{
+    background-color: rgb(58, 58, 192);
+    color: white;
+}
+
+td{
+    background-color: aquamarine;
+}

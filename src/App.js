@@ -1,25 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+//import { ButtonUniversal } from './ButtonUniversal';
+import { ComponenteAno } from './EjercicioDos/ComponenteAno';
+import { FormularioComp } from './FormularioComp';
+import { CochesComponentes } from './EjercicioTres/CochesComponente';
+import { LocalStorage } from './LocalStorage';
+import { FormularioLocStog } from './FormularioLocStog';
 
 function App() {
+
+  const button1 = (name, age) => {
+    return (
+      console.log(`Soy ${name} y tengo ${age}`)
+    )
+  } 
+
+  const sumar = (a, b) => {
+    console.log(a + b)
+  }
+
+  const restar = (a,b) => {
+    return console.log(a - b)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ButtonUniversal nombre={'MyYoutubeChannel1'} callBack={()=>{button1('Raul', 24)}}/>
+      <ButtonUniversal nombre={'Sumar'} callBack={()=>{sumar(3, 24)}}/> */}
+      {/* <CochesComponentes/> */}
+      {/* <LocalStorage/> */}
+      <FormularioLocStog/>
     </div>
   );
+
 }
 
 export default App;

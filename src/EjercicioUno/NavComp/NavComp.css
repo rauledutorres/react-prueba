@@ -1,0 +1,6 @@
+nav{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }

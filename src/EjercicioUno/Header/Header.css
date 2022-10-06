@@ -1,0 +1,19 @@
+header{
+  background-color: blue;
+  color: beige;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+img{
+    height: 200px;
+    display: flex;
+}
+
+.barra{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
